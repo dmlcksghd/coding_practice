@@ -8,3 +8,8 @@ def solution(n):
             return i
 
 # 예시
+n = 10
+print(solution(n))  # 3
+
+n = 12
+print(solution(n))  # 11
