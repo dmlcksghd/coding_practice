@@ -42,9 +42,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.L1_나누어_떨어지는_숫자_배열.executor": "Run",
     "Python.L1_나머지가_1이_되는_수_찾기.executor": "Run",
     "Python.L1_서울에서_김서방_찾기.executor": "Run",
     "Python.L1_약수의_합.executor": "Run",
+    "Python.L1_음양_더하기.executor": "Run",
+    "Python.L1_제일_작은_수_제거하기.executor": "Run",
     "Python.L1_콜라츠 추측.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -105,7 +108,7 @@
       <updated>1722871856425</updated>
       <workItem from="1722871857384" duration="950000" />
       <workItem from="1722872820037" duration="741000" />
-      <workItem from="1722915332876" duration="3016000" />
+      <workItem from="1722915332876" duration="5602000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <option name="closed" value="true" />
@@ -179,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722918370585</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="...">
+      <option name="closed" value="true" />
+      <created>1722919123716</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722919123716</updated>
+    </task>
+    <task id="LOCAL-00011" summary="...">
+      <option name="closed" value="true" />
+      <created>1722920124449</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722920124449</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +210,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/coding_practice$L1___.coverage" NAME="L1_서울에서_김서방_찾기 Coverage Results" MODIFIED="1722916996101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/coding_practice$L1__.coverage" NAME="L1_콜라츠 추측 Coverage Results" MODIFIED="1722918318740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/coding_practice$L1__.coverage" NAME="L1_음양_더하기 Coverage Results" MODIFIED="1722919082687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/coding_practice$L1__1___.coverage" NAME="L1_나머지가_1이_되는_수_찾기 Coverage Results" MODIFIED="1722915936945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/coding_practice$L1____.coverage" NAME="L1_제일_작은_수_제거하기 Coverage Results" MODIFIED="1722921730247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
