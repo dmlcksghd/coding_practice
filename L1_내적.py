@@ -6,6 +6,10 @@ def solution(a, b):
         answer += a[i] * b[i]
     return answer
 
+# 다른사람 풀이
+def solution(a, b):
+    return sum([x * y for x, y in zip(a, b)])
+
 # 예제
 a = [1,2,3,4]
 b = [-3,-1,0,2]
