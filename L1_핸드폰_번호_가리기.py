@@ -9,6 +9,10 @@ def solution(phone_number):
 def solution(phone_number):
     return "*" * (len(phone_number) - 4) + phone_number[-4:]
 
+# ljust, rjust(채울 길이, 뭘로채울건지) 사용하여 번호 채우기
+def solution(phone_number):
+    return phone_number[-4:].rjust(len(phone_number), '*')
+
 # 예제
 phone_number = "01033334444"    # "*******4444"
 print(solution(phone_number))
