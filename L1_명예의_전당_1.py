@@ -23,6 +23,26 @@ def solution(k, score):
     return answer
 
 
+# 힙을 사용한 풀이, heapq는 최소힙임. 최대 힙 사용하고 싶으면 입력할때 음수(-)값으로 입력하고 출력할때 음수(-)값 붙여서 출력하면됨
+def solution(k, score):
+    import heapq
+    rank = []
+    answer = []
+
+    for i in score:
+        # 힙에 새로운 점수 추가
+        heapq.heappush(rank, i)
+
+        # 힙의 크기가 k를 넘으면 최솟값을 제거
+        if len(rank) > k:
+            heapq.heappop(rank)
+
+        # 힙에서 가장 작은 값이 명예의 전당 최하위 점수
+        answer.append(rank[0])
+
+    return answer
+
+
 # 예시 1
 k = 3
 score = [10, 100, 20, 150, 1, 100, 200]
