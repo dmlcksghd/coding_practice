@@ -26,6 +26,10 @@ def solution(k, m, score):
     return total_cost
 
 
+# 다른 사람 풀이
+def solution(k, m, score):
+    return sum(sorted(score)[len(score) % m::m]) * m
+
 # 예시
 k = 3
 m = 4
