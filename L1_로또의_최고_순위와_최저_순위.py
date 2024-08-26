@@ -39,6 +39,18 @@ def solution(lottos, win_nums):
 
     return [highest_rank, lowest_rank]
 
+# 개선한 코드
+def solution(lottos, win_nums):
+    # 0의 개수와 맞춘 번호 개수 세기
+    zero_count = lottos.count(0)
+    matched = len(set(lottos) & set(win_nums))
+
+    # 순위는 맞춘 개수에 따라 6에ㅔ서 빼는 구조
+    highest_rank = min(7 - (matched + zero_count), 6)
+    lowest_rank = min(7 - matched, 6)
+
+    return [highest_rank, lowest_rank]
+
 
 lottos = [44, 1, 0, 0, 31, 25]
 win_nums = [31, 10, 45, 1, 6, 19]
