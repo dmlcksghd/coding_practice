@@ -27,6 +27,23 @@ def solution(s):
     return count
 
 
+# 다른 풀이
+def solution(s):
+    count = 0
+    balance = 0
+
+    for word in s:
+        if balance == 0:
+            count += 1
+            x = word
+
+        if word == x:
+            balance += 1
+        else:
+            balance -= 1
+
+    return count
+
 #  예시
 s = "banana"
 print(solution(s))  # 3
