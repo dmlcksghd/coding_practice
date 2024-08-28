@@ -21,3 +21,15 @@ def solution(board, h, w):
                 count += 1
 
     return count
+
+
+# 예시
+board = [["blue", "red", "orange", "red"], ["red", "red", "blue", "orange"], ["blue", "orange", "red", "red"], ["orange", "orange", "red", "blue"]]
+h = 1
+w = 1
+print(solution(board, h, w))    # 2
+
+board = [["yellow", "green", "blue"], ["blue", "green", "yellow"], ["yellow", "blue", "blue"]]
+h = 0
+w = 1
+print(solution(board, h, w))    # 1
