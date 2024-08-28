@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bca1006c-8937-4a03-bcf5-2c0a3d75f787" name="Changes" comment="...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1_문자열_나누기.py" beforeDir="false" afterPath="$PROJECT_DIR$/L1_문자열_나누기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Python.L1_다트_게임.executor": "Run",
     "Python.L1_덧칠하기.executor": "Run",
     "Python.L1_두_개_뽑아서_더하기.executor": "Run",
+    "Python.L1_둘만의_암호.executor": "Run",
     "Python.L1_로또의_최고_순위와_최저_순위.executor": "Run",
     "Python.L1_명예의_전당_1.executor": "Run",
     "Python.L1_문자열_나누기.executor": "Run",
@@ -76,6 +76,7 @@
     "Python.L1_이상한_문자_만들기.executor": "Run",
     "Python.L1_제일_작은_수_제거하기.executor": "Run",
     "Python.L1_직사각형_별찍기.executor": "Run",
+    "Python.L1_체육복.executor": "Run",
     "Python.L1_쵀대공약수와_최소공배수.executor": "Run",
     "Python.L1_추억_점수.executor": "Run",
     "Python.L1_카드_뭉치.executor": "Run",
@@ -146,39 +147,8 @@
       <workItem from="1722872820037" duration="741000" />
       <workItem from="1722915332876" duration="5676000" />
       <workItem from="1723179276658" duration="36867000" />
-      <workItem from="1724652580302" duration="2079000" />
-    </task>
-    <task id="LOCAL-00006" summary="...">
-      <option name="closed" value="true" />
-      <created>1722916146642</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1722916146642</updated>
-    </task>
-    <task id="LOCAL-00007" summary="...">
-      <option name="closed" value="true" />
-      <created>1722917011277</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1722917011277</updated>
-    </task>
-    <task id="LOCAL-00008" summary="...">
-      <option name="closed" value="true" />
-      <created>1722917045019</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1722917045019</updated>
-    </task>
-    <task id="LOCAL-00009" summary="...">
-      <option name="closed" value="true" />
-      <created>1722918370585</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1722918370585</updated>
+      <workItem from="1724652580302" duration="2290000" />
+      <workItem from="1724742961019" duration="4351000" />
     </task>
     <task id="LOCAL-00010" summary="...">
       <option name="closed" value="true" />
@@ -540,7 +510,39 @@
       <option name="project" value="LOCAL" />
       <updated>1724656036027</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="...">
+      <option name="closed" value="true" />
+      <created>1724656402829</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1724656402830</updated>
+    </task>
+    <task id="LOCAL-00056" summary="...">
+      <option name="closed" value="true" />
+      <created>1724656425302</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1724656425302</updated>
+    </task>
+    <task id="LOCAL-00057" summary="...">
+      <option name="closed" value="true" />
+      <created>1724745275252</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1724745275252</updated>
+    </task>
+    <task id="LOCAL-00058" summary="...">
+      <option name="closed" value="true" />
+      <created>1724823811919</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1724823811919</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,9 +557,9 @@
     <SUITE FILE_PATH="coverage/coding_practice$L1_____.coverage" NAME="L1_로또의_최고_순위와_최저_순위 Coverage Results" MODIFIED="1724654521195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/coding_practice$L1___1.coverage" NAME="L1_명예의_전당_1 Coverage Results" MODIFIED="1723438793177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/coding_practice$L1___.coverage" NAME="L1_핸드폰_번호_가리기 Coverage Results" MODIFIED="1723355715491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/coding_practice$L1__.coverage" NAME="L1_문자열_나누기 Coverage Results" MODIFIED="1724656019394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/coding_practice$L1__.coverage" NAME="L1_둘만의_암호 Coverage Results" MODIFIED="1724745256399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/coding_practice$L1_2016.coverage" NAME="L1_2016년 Coverage Results" MODIFIED="1723560316718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/coding_practice$L1_.coverage" NAME="L1_실패율 Coverage Results" MODIFIED="1723887423709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/coding_practice$L1_.coverage" NAME="L1_체육복 Coverage Results" MODIFIED="1724823789459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/coding_practice$L1_3_.coverage" NAME="L1_3진법_뒤집기 Coverage Results" MODIFIED="1723193739568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/coding_practice$L1__1___.coverage" NAME="L1_나머지가_1이_되는_수_찾기 Coverage Results" MODIFIED="1722915936945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/coding_practice$L1____.coverage" NAME="L1_문자열_내_마음대로_정렬하기 Coverage Results" MODIFIED="1723281829752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
