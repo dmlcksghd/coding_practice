@@ -53,3 +53,7 @@ print(solution(people, limit))  # 3
 people = [70, 80, 50]
 limit = 100
 print(solution(people, limit))  # 3
+
+# 시간복잡도
+# 1. O(NlogN)   정렬(NlogN) + while(N)
+# 2. O(NlogN)
