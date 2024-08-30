@@ -7,6 +7,7 @@
 # 사람들의 몸무게를 담은 배열 people과 구명보트의 무게 제한 limit가 매개변수로 주어질 때, 모든 사람을 구출하기 위해 필요한 구명보트 개수의 최솟값을 return 하도록 solution 함수를 작성해주세요.
 
 
+# 큐를 활용
 from collections import deque
 
 
@@ -22,6 +23,25 @@ def solution(people, limit):
         else:
             people.pop()
         boats += 1
+    return boats
+
+
+# 다른풀이(탐욕법)
+def solution(people, limit):
+    # 사람들의 몸무게 정렬
+    people.sort()
+
+    left = 0  # 가장 가벼운 사람을 가리키는 포인터
+    right = len(people) - 1
+    boats = 0
+
+    while left <= right:
+        # 가장 가벼운 사람과 가장 무거운 사람의 무게 합이 limit을 초과하지 않으면
+        if people[left] + people[right] <= limit:
+            left += 1
+        right -= 1
+        boats += 1
+
     return boats
 
 
