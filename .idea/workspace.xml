@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca1006c-8937-4a03-bcf5-2c0a3d75f787" name="Changes" comment="...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1_로또의_최고_순위와_최저_순위.py" beforeDir="false" afterPath="$PROJECT_DIR$/L1_로또의_최고_순위와_최저_순위.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,23 +151,7 @@
       <workItem from="1722915332876" duration="5676000" />
       <workItem from="1723179276658" duration="36867000" />
       <workItem from="1724652580302" duration="2290000" />
-      <workItem from="1724742961019" duration="8116000" />
-    </task>
-    <task id="LOCAL-00016" summary="...">
-      <option name="closed" value="true" />
-      <created>1723182024855</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1723182024855</updated>
-    </task>
-    <task id="LOCAL-00017" summary="...">
-      <option name="closed" value="true" />
-      <created>1723182088880</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1723182088880</updated>
+      <workItem from="1724742961019" duration="8432000" />
     </task>
     <task id="LOCAL-00018" summary="...">
       <option name="closed" value="true" />
@@ -545,7 +529,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725000122681</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="...">
+      <option name="closed" value="true" />
+      <created>1725001711302</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1725001711302</updated>
+    </task>
+    <task id="LOCAL-00066" summary="...">
+      <option name="closed" value="true" />
+      <created>1725001769003</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1725001769003</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
