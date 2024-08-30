@@ -63,3 +63,15 @@ print(solution(lottos, win_nums))   # [1, 6]
 lottos = [45, 4, 35, 20, 3, 9]
 win_nums = [20, 9, 3, 45, 4, 35]
 print(solution(lottos, win_nums))   # [1, 1]
+
+# 시간복잡도
+# zero_count = lottos.count(0)은 리스트 lottos 에서 숫자 0의 개수를 세는 함수
+# -> 리스트 길이가 n이라 할 때, 시간복잡도 O(n)
+#
+# matched = len(set(lottos) & set(win_nums))
+# -> 각각의 리스트 길이와 비례하여 동작 O(n)
+#
+# 순위계산
+# -> min으로 순위 계산 O(1)
+#
+# 최종 시간 복잡도 -> O(n)
