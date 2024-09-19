@@ -29,8 +29,15 @@ def solution(cacheSize, cities):
 
     return total_time
 
+
+# 다른 풀이
+
 # 예시
 print(solution(3, ["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo", "Seoul", "NewYork", "LA"]))  # 예상 출력: 50
 print(solution(3, ["Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul"]))  # 예상 출력: 21
 print(solution(2, ["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo", "Seoul", "NewYork", "LA"]))  # 예상 출력: 60
 print(solution(0, ["Jeju", "Pangyo", "Seoul", "NewYork", "LA"]))  # 예상 출력: 25
+
+
+# 시간 복잡도
+O(n)
